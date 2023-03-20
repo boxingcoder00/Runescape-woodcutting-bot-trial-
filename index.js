@@ -1,5 +1,5 @@
 // import the robotjs library
-var robot = require("robotjs");
+var robot = require('robotjs');
 
 function main() {
     console.log("starting...");
