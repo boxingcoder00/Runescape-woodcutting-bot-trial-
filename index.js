@@ -12,7 +12,7 @@ function main() {
         if (tree == false) {
             rotateCamera();
             continue;
-        }
+        };
 
         // chop down first tree
         robot.moveMouse(tree.x, tree.y); //screenshot and use MSpaint to find out coordinates of spot
@@ -23,7 +23,7 @@ function main() {
         dropLogs();
     }
 
-}
+};
 
 function dropLogs() {
     var inventory_x = 1882;
@@ -53,7 +53,7 @@ function dropLogs() {
      robot.mouseClick();
      sleep(1000);
      }
-}
+};
 
 function testScreenCapture() {
     //taking a screenshot
